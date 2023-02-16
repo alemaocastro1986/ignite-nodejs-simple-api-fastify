@@ -1,0 +1,12 @@
+Project: Api de finanças
+  Requisitos Funcionais:
+    - O usuario deve poder criar uma nova transação
+    - O usuario deve poder um resumo da sua conta
+    - O usuario deve poder listar historico de transações
+    - O usuario deve poder visualizar detalhes de uma transação
+
+  Regras de Negócio:
+    - A Transação pode ser do tipo crédito que adicionara o valor ao montante já existente na conta, ou débito que removerá deste montante o valor informado
+    - Deve ser possivel identificar o usuário entre as requisições
+    - O usuário só pode visualizar transações a qual ele criou
+

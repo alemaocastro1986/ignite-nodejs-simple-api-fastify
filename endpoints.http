@@ -1,0 +1,20 @@
+@API_URL=http://localhost:3333
+
+###
+GET {{API_URL}}/transactions HTTP/1.1
+
+###
+GET {{API_URL}}/transactions/19e109e8-962c-4eee-acbf-959cd43c528c HTTP/1.1
+
+###
+GET {{API_URL}}/transactions/summary HTTP/1.1
+
+###
+POST {{API_URL}}/transactions HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Hambuger and fries",
+  "type": "debit",
+  "amount": 99
+}
